@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 from typing import Dict, Any, List, Optional
-from .utils import load_json, save_json, ensure_dir
+from utils import load_json, save_json, ensure_dir
 
 class Database:
     def __init__(self):
