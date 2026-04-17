@@ -1,0 +1,7 @@
+flask
+flask-cors
+instaloader
+beautifulsoup4
+requests
+colorama
+pillow
