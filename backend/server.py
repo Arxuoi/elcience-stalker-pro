@@ -262,4 +262,8 @@ def server_error(e):
 # ==================== MAIN ====================
 if __name__ == '__main__':
     print_banner()
-    print(f"{Colors
+    print(f"{Colors.GREEN}[✓] Server berjalan di: http://localhost:5000{Colors.RESET}")
+    print(f"{Colors.GREEN}[✓] API Endpoint: http://localhost:5000/api/{Colors.RESET}")
+    print(f"{Colors.YELLOW}[*] Tekan CTRL+C untuk berhenti{Colors.RESET}\n")
+    
+    app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
