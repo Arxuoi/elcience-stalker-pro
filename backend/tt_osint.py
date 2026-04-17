@@ -5,7 +5,7 @@ import requests
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 from bs4 import BeautifulSoup
-from .utils import format_number, ensure_dir, generate_id
+from utils import format_number, ensure_dir, generate_id
 
 class TikTokOSINT:
     def __init__(self):
