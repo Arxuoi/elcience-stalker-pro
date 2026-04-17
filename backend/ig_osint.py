@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 import instaloader
-from .utils import format_number, ensure_dir, generate_id
+from utils import format_number, ensure_dir, generate_id
 
 class InstagramOSINT:
     def __init__(self):
